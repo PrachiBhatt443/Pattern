@@ -20,3 +20,8 @@ for i in range(1,5+1):
         j=j+1
     print()
 print("____________________________\n")
+for row in range(1, rows):
+    for column in range(row, 0, -1):
+        print(column, end=’ ‘)
+    print(“”)
+print("____________________________\n")
