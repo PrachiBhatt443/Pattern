@@ -33,3 +33,19 @@ for i in range(1,5+1):
         # print(chr(64+i),end="")
         print("*",end="")
     print()
+
+print("____________________________,\n")
+def pypart(n):
+
+    myList = []
+
+    for i in range(1,n+1):
+
+        myList.append("*"*i)
+
+    print("\n".join(myList))
+ 
+# Driver Code
+
+n = 5
+pypart(n)
